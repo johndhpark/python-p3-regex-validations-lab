@@ -6,6 +6,7 @@ class TestNameRegEx:
     '''name_regex in regex.py'''
 
     def test_matches_john_cena(self):
+        print(name_regex)
         '''matches the string "John Cena".'''
         assert name_regex.fullmatch("John Cena")
 
